@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(31, 31, 31);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px 20px;
+}
+
+.navbar .logo {
+    height: 40px;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.navbar .nav-links a:hover {
+    color: green;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    text-align: center;
+    color: white;
+    background-image: url('background.jpg');
+    
+}
+.content .center-content{
+    margin-top: 60px;
+    width: 1300px; /* Adjust the width as needed */
+    height: 500px; /* Adjust the height as needed */
+    background-color: rgb(31, 31, 31);
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 5%;
+    transform: translate(-50%, -50%);
+}
+.content .center-content .main-img {
+    height: 300px;
+}
+
+.content .center-content p {
+    font-size: 24px;
+    margin-top: 30px;
+}
+.gradient {
+    background-image: linear-gradient(to bottom ,rgb(15, 15, 15),  rgb(31, 31, 31)); 
+    height: 100px; /* Set the height to 100 pixels */
+    width: 100%;
+    position: relative; /* Position it relative to its container */
+}
+
+.events-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 60px;
+    
+}
+
+.event {
+    
+    padding: 20px;
+    width: 450px;
+    text-align: left;
+    position: relative;
+    transition: box-shadow 0.3s ease;
+    
+}
+
+.event img:hover {
+    box-shadow: 0 0 15px 5px #00ff00; /* Glowing green border on hover */
+    transition: box-shadow 0.3s ease;
+}
+
+.event img {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #00ff00;
+    border-radius: 10px;
+}
+
+.event h3 {
+    color: #fff;
+    margin: 10px 0;
+    text-align: left; /* Align heading to the left */
+}
+
+.certificate-btn {
+    background-color: #00ff00;
+    border: none;
+    color: #000;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 20px;
+    right: 20px; /* Position button at the bottom right */
+}
+
+.certificate-btn:hover {
+    background-color: #068506;
+    transition: box-shadow 0.3s ease;
+}
+
+.footer {
+    background: linear-gradient(to top, #24421d, rgb(31, 31, 31));
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+
+.footer .contact {
+    margin-left: 90px;
+    margin-bottom: 20px;
+    width: 300px;
+    text-align: left;
+
+}
+.footer .contact .logo{
+    
+    width: 200px;
+}
+
+.footer .social-icons {
+    font-size: 24px;
+    display: flex;
+    position: relative;
+    gap: 10px;
+    text-align: right;
+    justify-content: flex-end; /* Align items to the right */
+    margin-right: 90px;
+    align-items: center;
+    }
+ 
+  
+  
+  .footer .social-icons a {
+   
+    position: relative;
+    max-height: 30px;
+    color: wheat;
+    font-size: 30px; /* Increase font size for larger icons */
+    margin-right: 10px; 
+    text-decoration: none;
+    
+  }
+  
+  .footer .social-icons span {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+
+.footer .created-by {
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+    h1 {
+      font-size: 1.5em;
+    }
+  }
+  
+
